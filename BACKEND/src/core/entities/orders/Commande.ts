@@ -1,5 +1,5 @@
 import { Client } from "../client/Client";
-import { ProduitCommande } from "./ProductCommande";
+import { ProductCommande } from "./ProductCommande";
 import { Payment } from "../payment/Payment";
 
 export class Commande {
@@ -16,6 +16,6 @@ export class Commande {
     public totalHt: number,
     public montantTaxe: number,
     public totalTtc: number,
-    public produitsCommande: ProduitCommande[] = [],
+    public produitsCommande: ProductCommande[] = [],
   ) {}
 }
