@@ -3,7 +3,7 @@ import { Taille } from "../product/Taille";
 import { Couleur } from "../product/Couleur";
 import { Commande } from "./Commande";
 
-export class ProduitCommande {
+export class ProductCommande {
   constructor(
     public readonly idDetail: number,
     public commande: Commande,
