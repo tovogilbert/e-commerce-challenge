@@ -21,10 +21,15 @@ module.exports = {
         allowNull: false,
         unique: true,
       },
-      phone: {
+      telephone: {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      adresse: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+
 
       // Champs spécifiques au particulier
       firstName: {

@@ -11,7 +11,7 @@ async function startServer() {
   try {
     // Connexion à la base
     await sequelize.authenticate();
-    await sequelize.sync(); // Synchronisation ici
+    await sequelize.sync(); 
 
     console.log("Database connected and synchronized");
 
