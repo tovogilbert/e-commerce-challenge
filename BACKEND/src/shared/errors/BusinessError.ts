@@ -1,6 +1,6 @@
 export class BusinessError extends Error {
-  public readonly details?: string[];
-  public readonly errorCode: string;
+  public  details?: string[];
+  public  errorCode: string;
 
   constructor(
     message: string,
